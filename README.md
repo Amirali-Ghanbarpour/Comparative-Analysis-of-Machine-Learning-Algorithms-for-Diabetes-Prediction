@@ -5,7 +5,7 @@ Jump into predicting diabetes onset with the Pima Indians Diabetes Database! Thi
 
 ## What You'll Achieve
 - **Clean Data**: Use KNN imputation and SMOTE to preprocess the dataset.
-- **Optimize Models**: Tune hyperparameters to balance performance (e.g., Decision Tree with max_depth=7).
+- **Optimize Models**: Tune hyperparameters to balance performance.
 - **Interpret Results**: Discover Glucose as the top predictor using SHAP.
 - **Compare Performance**: Evaluate models on accuracy, precision, recall, F1-score, and AUC.
 
@@ -18,7 +18,7 @@ Get the project running in minutes:
    ```
 2. **Install Dependencies**:
 
-Ensure Python 3.8+ is installed. The `requirements.txt` includes:
+Ensure Python 3.8+ is installed. The requirements include:
    - pandas
    - numpy
    - scikit-learn
