@@ -1,7 +1,5 @@
 # Comparative-Analysis-of-Machine-Learning-Algorithms-for-Diabetes-Prediction
 
-# Diabetes Prediction with Pima Indians Diabetes Database
-
 ## Get Started
 Jump into predicting diabetes onset with the Pima Indians Diabetes Database! This project uses 768 records with 8 features (like Glucose and BMI) to classify diabetes cases (35% positive). You'll train and compare four models—Logistic Regression, Decision Tree, Random Forest, and XGBoost—optimized to handle missing data, class imbalance, and overfitting. XGBoost shines with a Recall of 0.82 and F1-Score of 0.68, perfect for catching critical cases.
 
