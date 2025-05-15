@@ -1,5 +1,21 @@
 # Comparative-Analysis-of-Machine-Learning-Algorithms-for-Diabetes-Prediction
 
+## Understand the Results
+The models were trained on a 70% train, 15% cross-validation, and 15% test split. Check out the test set performance:
+
+| Model              | Accuracy | Precision | Recall | F1-Score | AUC  |
+|--------------------|----------|-----------|--------|----------|------|
+| Logistic Regression| 0.74     | 0.73      | 0.50   | 0.59     | 0.85 |
+| Decision Tree      | 0.75     | 0.80      | 0.45   | 0.58     | 0.82 |
+| XGBoost            | 0.71     | 0.58      | 0.82   | 0.68     | 0.81 |
+| Random Forest      | 0.77     | 0.79      | 0.52   | 0.63     | 0.85 |
+
+**Take Action**:
+- **Choose XGBoost** for medical applications where high recall (0.82) minimizes missed diabetes cases.
+- **Use Random Forest** for balanced accuracy (0.77) and strong AUC (0.85).
+- **Analyze Feature Importance**: Run the notebook to visualize SHAP plots, confirming Glucose as the key driver.
+
+
 Jump into predicting diabetes onset with the Pima Indians Diabetes Database! This project uses 768 records with 8 features (like Glucose and BMI) to classify diabetes cases (35% positive). You'll train and compare four models—Logistic Regression, Decision Tree, Random Forest, and XGBoost—optimized to handle missing data, class imbalance, and overfitting. XGBoost shines with a Recall of 0.82 and F1-Score of 0.68, perfect for catching critical cases.
 What You'll Achieve
 
